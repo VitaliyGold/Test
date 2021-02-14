@@ -1,0 +1,21 @@
+.wrapperProblem {
+    background-image: url('./pic/serviceBackground.jpg');
+}
+
+.wrapperProblem h2 {
+    color: #f2f2f2;
+    font-size: 36px;
+    width: 570px;
+    margin-bottom: 38px;
+}
+
+.buttonPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.buttonPhone i {
+    margin-right: 5px;
+}

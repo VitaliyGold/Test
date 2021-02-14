@@ -1,0 +1,27 @@
+.ourProjectRef {
+    text-align: center;
+}
+
+.ourProjectRef a {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #888888;
+    margin: 20px;
+}
+
+.Projects {
+    margin-top: 37px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Project {
+    width: 390px;
+    height: 290px;
+    background-image: url('./pic/Project2.jpg');
+}
+
+.ProjectKey {
+    text-align: center;
+}
+

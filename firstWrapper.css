@@ -1,0 +1,56 @@
+.text-first-wrapper button{
+    margin-top: 40px;
+}
+
+.text-first-wrapper span{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.text-first-wrapper h1{
+    margin-bottom: 30px;
+}
+
+.buttonFirstWrapper {
+    height: 3em;
+    width: 11em;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 10px;
+    background-color:#ffb619;
+    border: 0;
+}
+
+.Get {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.textFooterFirstWrapper {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.buttonFooterFirstWrapper {
+    height: 3em;
+    width: 200px;
+    background-color:#ffb619;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    border: none;
+}
+
+.textFirstWrapper {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.buttonFooterFirstWrapper i{
+    margin-right: 15px;
+}
+
