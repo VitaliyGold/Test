@@ -1,23 +1,23 @@
 .text-first-wrapper button{
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 
 .text-first-wrapper span{
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: normal;
 }
 
 .text-first-wrapper h1{
-    margin-bottom: 30px;
+    margin-bottom: 1.2em;
 }
 
 .buttonFirstWrapper {
     height: 3em;
     width: 11em;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: bolder;
     color: white;
-    margin-right: 10px;
+    margin-right: 0.6em;
     background-color:#ffb619;
     border: 0;
 }
@@ -27,30 +27,35 @@
     border: 2px solid white;
 }
 
+.firstWrapperFooter {
+    background-image: url('./pic/footerFirstWrapper.png');
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
 .textFooterFirstWrapper {
-    font-size: 26px;
+    font-size: 1.6em;
     font-weight: bolder;
 }
 
 .buttonFooterFirstWrapper {
-    height: 3em;
-    width: 200px;
     background-color:#ffb619;
     color: white;
     display: flex;
-    align-items: center;
+    height: 3em;
+    width: 12em;
     justify-content: center;
+    align-items: center;
     font-weight: bolder;
     border: none;
 }
 
 .textFirstWrapper {
-    font-size: 26px;
+    font-size: 1.7em;
     font-weight: bolder;
     color: #333333;
 }
 
 .buttonFooterFirstWrapper i{
-    margin-right: 15px;
+    margin-right: 0.5em;
 }
-

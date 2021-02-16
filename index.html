@@ -1,12 +1,14 @@
 <!doctype html>
 <html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Whitesquare</title>
     <link rel="stylesheet" href="./index.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
     </style>
+    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./firstWrapper.css">
     <link rel="stylesheet" href="./chooseUs.css">
     <link rel="stylesheet" href="./ourProjects.css">
@@ -14,51 +16,59 @@
     <link rel="stylesheet" href="./wrapperProblem.css">
     <link rel="stylesheet" href="./wrapperLocation.css">
     <link rel="stylesheet" href="./partner.css">
-    <link rel="stylesheet" href="./contacts.css">
+    <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/8221813ab5.js"></script>
 </head>
 <body>
     <!-- header -->
     <header class="header">
-        <section class="row justify-content-center" style="background-color: #f2f2f2;">
-            <section class="col-8">
-                <section class="row justify-content-between">
-                    <section class="col-5 d-flex" style="height: 50px">
-                        <span style="font-family: Lato, sans-serif;">We make your home more quality.</span>
+        <section class="top-header row justify-content-center d-flex align-items-center">
+            <section class="col-xl-8 col-lg-10 col-md-11 col-11">
+                <section class="row d-flex justify-content-between align-items-center">
+                    <section class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-6 justify-content-start">
+                        <span>We make your home more quality.</span>
                     </section>
-                    <section class="col-4 d-flex justify-content-end">
+                    <section class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 d-flex justify-content-end">
                         <section class="top-header-ref">
-                            <i class="fa fa-facebook fa-12px"></i>
-                            <i class="fa fa-twitter fa-12px"></i>
-                            <i class="fa fa-google-plus fa-12px"></i>
-                            <i class="fa fa-behance fa-12px"></i>
+                            <a href="#"><i class="fa fa-facebook fa-12px"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-12px"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-12px"></i></a>
+                            <a href="#"><i class="fa fa-behance fa-12px"></i></a>
                         </section>
                     </section>
                 </section>
             </section>
         </section>
         <nav class="row justify-content-center">
-            <section class="col-8">
-                <section class="d-flex align-items-center" style="height: 140px">
+            <section class="col-xl-8 col-lg-10 col-md-11 col-11">
+                <section class="d-flex align-items-center justify-content-between" style="height: 8.75em">
                         <section class="logoAndBrand d-flex">
                             <section class="log d-flex align-items-center">
                                 <img src="./pic/logoHeader.png" width="50" height="60" class="d-inline-block" alt="">
                             </section>
-                            <section class="brandName" style="padding-left: 5px">
-                                <span style='font-size: 28px'>AUHANDY</span>
-                                <span style='font-size: 13px'>We repair everything.</span>
+                            <section class="brandName">
+                                <span style='font-size: 1.8em'>AUHANDY</span>
+                                <span style='font-size: 0.8em'>We repair everything.</span>
                             </section>
                         </section>
-                        <section class="menu align-items-center">
-                            <a class="menu-item" href="#">HOME</a>
-                            <a class="menu-item" href="#">SERVICES</a>
-                            <a class="menu-item" href="#">PROJECTS</a>
-                            <a class="menu-item" href="#">PAGES</a>
-                            <a class="menu-item" href="#">BLOG</a>
-                            <a class="menu-item" href="#">CONTACT</a>
-                            <i class="fa fa-search fa-12px menu-item" style="color:#666666; margin-left: 0;"></i>
-                        </section>
+                        <ul class="menu">
+                            <li class="menuItem"><a href="#">HOME</a>
+                                <ul class="submenu">
+                                    <li><a href="#">HOMEPAGE 01</a></li>
+                                    <li><a href="#">HOMEPAGE 02</a></li>
+                                    <li><a href="#">HOMEPAGE 03</a></li>
+                                    <li><a href="#">HOMEPAGE 04</a></li>
+                                    <li><a href="#">HOMEPAGE 05</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuItem"><a href="#">SERVICES</a></li>
+                            <li class="menuItem"><a href="#">PROJECTS</a></li>
+                            <li class="menuItem"><a href="#">PAGES</a></li>
+                            <li class="menuItem"><a href="#">BLOG</a></li>
+                            <li class="menuItem"><a href="#">CONTACT</a></li>
+                            <li class="menuItem"><i class="fa fa-search fa-12px menu-item" style="color:#666666"></i></li>
+                        </ul>
                 </section>
             </section>
         </nav>
@@ -68,12 +78,12 @@
         <!-- FirstWrapper -->
         <section class="firstWrapper">
             <section class="row justify-content-center" style="background-image: url('./pic/backgroundFirstWrapper.jpg'); height: 650px;">
-            <section class="col-8 d-flex align-items-center">
-                <section class="row d-flex align-items-center justify-content-between">
-                    <section class="col-5 d-flex justify-content-center">
+            <section class="col-lg-10 col-xl-8 col-md-11 col-11 d-flex align-items-center">
+                <section class="row d-flex align-items-center justify-content-center">
+                    <section class="col-lg-5 col-xl-5 col-md-5 col-5 d-flex justify-content-center" style="padding-right: 5em;">
                         <img src="./pic/rabbit.png" alt="HandymanToy">
                     </section>
-                    <section class="text-first-wrapper col-6" style="color: white;">
+                    <section class="text-first-wrapper col-lg-6 col-xl-6 col-md-6 col-6" style="color: white;">
                         <h1 style="font-size: 40px; font-weight: bold;">Expert Handyman & Remodeling</h1>
                         <span>Integer consectetur dapibus nisi, et faucibus augue lobortis ut.
                             Proin quis porttitor sem. Donec ultrices felis quis tincidunt.
@@ -87,25 +97,26 @@
             </section>
             </section>
         </section>
-        <section class="row d-flex justify-content-center align-items-center" style="height: 160px; background-image: url('./pic/footerFirstWrapper.png');">
-            <section class="col-8">
-                <section class="row d-flex justify-content-between">
-                    <span class="col-6 textFirstWrapper">We have 13 years of experience in Auhandy</span>
-                    <button class="col-2 buttonFooterFirstWrapper"><i class="fa fa-mobile fa-2x"></i>+1 23 568 8967</button>
+        <section class="firstWrapperFooter row d-flex justify-content-center">
+            <section class="col-xl-8 col-lg-10 col-md-11 col-11">
+                <section class="d-flex justify-content-between">
+                    <span class="textFirstWrapper">We have 13 years of experience in Auhandy</span>
+                    <button class="buttonFooterFirstWrapper"><i class="fa fa-mobile fa-2x"></i>+1 23 568 8967</button>
                 </section>
             </section>
         </section>
          <!-- /FirstWrapper -->
          <!-- Why Choose Us -->
         <section class="wrapperChooseUs">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 650px;">
-                <section class="col-8">
-                    <section class="row" style="position: relative;">
-                        <section class="col-5">
-                            <section class="border"></section>
-                            <section class='picWithBorder'><img src="./pic/picRabbitWithFon.jpg" ></section>
+            <section class="row d-flex justify-content-center align-items-center">
+                <section class="col-xl-8 col-lg-10 col-md-11 col-11">
+                    <section class="row d-flex justify-content-between">
+                        <section class="col-xl-5 col-lg-5 col-md-5 col-5 pic">
+                                <section class="border">
+                                    <img src="./pic/picRabbitWithFon.jpg" class="img-fluid">
+                                </section>
                         </section>
-                        <section class="col-7">
+                        <section class="col-xl-7 col-lg-7 col-md-7 col-7">
                             <header class="headerWrapper" style="text-align: left;">
                                 <h2 style="color: #454545; text-align: left;">WHY CHOOSE US</h2>
                                 <hr style="background-color: #1c3e9b; margin-left: 0;">
@@ -125,7 +136,7 @@
                                 </section>
                                 <section class="choose">
                                     <section>
-                                        <img src="./pic/Why2.jpg">
+                                        <img src="./pic/Why2.jpg";>
                                     </section>
                                     <section class="text">
                                         <h4>24/7 Support Service</h4>
@@ -159,8 +170,8 @@
         <!-- /Why Choose Us -->
          <!-- OurService -->
         <section class="wrapperOurService">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 650px; background-image: url('./pic/serviceBackground.jpg');">
-                <section class="col-8 justify-content-center" >
+            <section class="row d-flex justify-content-center">
+                <section class="col-xl-8 col-lg-10 col-md-12 col-12">
                     <header class="headerWrapper">
                         <h2>OUR SERVICE</h2>
                         <hr>
@@ -172,23 +183,17 @@
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                         </section>
                         <section class="service">
-                            <span>
                                 <img src="./pic/Service2.png">
-                            </span>
                             <h4>Electrical</h4>
                             <span>Donec malesuada, purus a viverra sodales leo purus lobortis</span>
                         </section>
                         <section class="service">
-                            <span>
                                 <img src="./pic/Service3.png">
-                            </span>
                             <h4>Plumbing</h4>
                             <span>Praesent dignissim mattis mauris. Sed finibus elementu.</span>
                         </section>
                         <section class="service">
-                            <span>
                                 <img src="./pic/Service4.png">
-                            </span>
                             <h4>Engine Repairs</h4>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                         </section>
@@ -202,8 +207,8 @@
         <!-- /OurService -->
         <!-- OurProjects -->
         <section class="wrapperOurProjects">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 1000px;">
-                <section class="col-8 justify-content-center" >
+            <section class="row d-flex justify-content-center">
+                <section class="col-xl-8 col-lg-10 col-md-11 justify-content-center" >
                     <header class="headerWrapper">
                         <h2 style="color: #333333">OUR PROJECTS</h2>
                         <hr style="background-color: #1c3e9b;">
@@ -219,76 +224,108 @@
                         </section>
                         <section class="Projects">
                             <section class="Project">
+                                <img src="./pic/project1-5.jpg">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                             <section class="Project">
+                                <img src="./pic/project2-6.jpg">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                             <section class="Project">
+                                <img src="./pic/project3-4.jpg">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                             <section class="Project">
+                                <img src="./pic/project3-4.jpg">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                             <section class="Project">
+                                <img src="./pic/project1-5.jpg" style="transform: scale(-1, 1);">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                             <section class="Project">
+                                <img src="./pic/project2-6.jpg">
+                                <section class="dark-project">
+                                    <h4>Pellentesque finibus maximus.</h4>
+                                    <span>Repair House</span>
+                                    <i class="fa fa-search fa-1x"></i>
+                                </section>
                             </section>
                         </section>
                         <section style="text-align: center;">
                             <button class="buttonFirstWrapper Learn" style="margin-top: 60px;">ALL PROJECTS</button>
-                        </section>>
+                        </section>
                     </main>
                 </section>
             </section>
         </section>
         <!-- /OurProjects -->
-        <!-- /Problem -->
+        <!-- Problem -->
         <section class="wrapperProblem">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 580px;">
-                <section class="col-8">
+            <section class="row d-flex justify-content-center">
+                <section class="col-xl-8 col-lg-10 col-md-11 col-11">
                     <h2>YOU HAVE SOME PROBLEMS IN HOUSING?</h2>
-                    <button class="buttonFirstWrapper Learn" style="width: 270px"><span class="buttonPhone"><i class="fa fa-mobile fa-2x"></i>+1 23 567 8596</span></button>
+                    <button class="buttonFirstWrapper Learn" style="width: 16.8em"><span class="buttonPhone"><i class="fa fa-mobile fa-2x"></i>+1 23 567 8596</span></button>
                 </section>
             </section>
         </section>
         <!-- /Problem -->
-        <!-- /Location -->
+        <!-- Location -->
         <section class="wrapperLocation">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 700px;">
-                <section class="col-8">
-                    <section class="row">
-                        <section class="col-5">
+            <section class="row d-flex justify-content-center">
+                <section class="col-xl-8 col-lg-10 col-md-11 col-11">
+                    <section class="row d-flex flex-wrap">
+                        <section class="columnMap col-xl-5 col-lg-5 col-md-12 col-8">
                             <header class="headerWrapper">
                                 <h2 style="color: #333333; text-align: left;">OUR LOCATION</h2>
                                 <hr style="background-color: blue; margin-left: 0;">
                             </header>
-                        </section>
-                        <section class="col-7">
-                            <header class="headerWrapper">
-                                <h2 style="color: #333333; text-align: left;">GET A QUOTE</h2>
-                                <hr style="background-color: blue; margin-left: 0;">
-                            </header>
-                        </section>
-                    </section>
-                    <section class="row" style="margin-top: 30px;">
-                        <section class="col-5">
                             <section class="map">
                                 <img src="./pic/ballon.png">
                             </section>
                         </section>
-                        <section class="col-7">
+                        <section class="columnForm col-xl-7 col-lg-7 col-md-12 col-12">
+                            <header class="headerWrapper" style='margin-left: 2.5%;'>
+                                <h2 style="color: #333333; text-align: left;">GET A QUOTE</h2>
+                                <hr style="background-color: blue; margin-left: 0;">
+                            </header>
                             <form class="formLocation">
                                 <input class="inputFormLocation" type="text" placeholder='Your Name'>
                                 <input class="inputFormLocation" type="email" placeholder='Your Email'>
                                 <input class="inputFormLocation" type="text" placeholder='Your Subjects'>
                                 <input class="inputFormLocation" type="tel" placeholder='Your Phone Number'>
                                 <textarea class="inputFormLocation big" placeholder='Description Services Needed'></textarea>
+                                <input class='buttonFirstWrapper Learn' type="submit" value='SUBMIT' style='width: 8.75em; margin: 2.5%'>
                             </form>
                         </section>
                     </section>
                 </section>
             </section>
         </section>
+        <!-- /Location -->
         <section class="wrapperPartner">
-            <section class="row d-flex justify-content-center align-items-center" style="height: 220px;">
-                <section class="col-8 d-flex justify-content-center align-items-center">
+            <section class="row d-flex justify-content-center align-items-center" style="height: 13.75em;">
+                <section class="col-xl-8 col-lg-10 col-md-11 d-flex justify-content-center align-items-center">
                     <img class='picPartner' src="./pic/partner.png">
                     <img class='picPartner' src="./pic/partner1.png">
                     <img class='picPartner' src="./pic/partner2.png">
@@ -297,11 +334,12 @@
             </section>
         </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
-        <section class="row justify-content-center align-items-center" style="background-color: #1a1a1a; height: 420px">
-            <section class="col-8">
+        <section class="top-footer row justify-content-center">
+            <section class="col-xl-8 col-lg-10 col-md-11 col-11">
                 <section class="row">
-                    <section class="Contacts col-4">
+                    <section class="Contacts col-xl-4 col-lg-4 col-md-6 col-6">
                     <header>CONTACT US</header>
                     <section class="Contact">
                         <img src="./pic/footerPhone.png">
@@ -329,10 +367,10 @@
                         </section>
                     </section>
                     </section>
-                    <section class="col-4">
-                    <header>OUR SERVICES</header>
+                    <section class="col-xl-4 col-lg-4 col-md-6 col-6">
+                        <header>OUR SERVICES</header>
                     <section class="row">
-                        <section class="listFooter col-6">
+                        <section class="listFooter col-xl-6 col-lg-6 col-md-6 col-6">
                             <ul>
                                 <li><i class="fa fa-angle-right"></i>Electrical</li>
                                 <li><i class="fa fa-angle-right"></i>Plumbing</li>
@@ -342,7 +380,7 @@
                                 <li><i class="fa fa-angle-right"></i>Wall Paint</li>
                             </ul>
                         </section>
-                        <section class="listFooter col-6">
+                        <section class="listFooter col-xl-6 col-lg-6 col-md-6 col-6">
                             <ul>
                                 <li><i class="fa fa-angle-right"></i>Installation</li>
                                 <li><i class="fa fa-angle-right"></i>Garden Repairs</li>
@@ -354,7 +392,7 @@
                         </section>
                     </section>
                     </section>
-                    <section class="col-4">
+                    <section class="col-xl-4 col-lg-4 col-md-12 col-12">
                         <section class="tiket">
                             <span>GET &nbsp; <b>25%</b> &nbsp; OFF</span>
                             <h4>Electrical Services</h4>
@@ -364,11 +402,12 @@
                 </section>
             </section>
         </section>
-        <section class="row justify-content-center align-items-center" style="background-color: #0d0d0d; height: 60px">
-            <section class="copyright col-8">
-                <p>Copyright © 2018 <b>Auhandy</b>. Get The Theme</p>
+        <section class="bottom-footer row justify-content-center align-items-center">
+            <section class="copyright col-xl-8">
+                <span>Copyright © 2018 <b>Auhandy</b>. Get The Theme</span>
             </section>
         </section>
     </footer>
+    <!-- /footer -->
 </body>
 </html>

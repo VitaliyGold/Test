@@ -1,24 +1,64 @@
+.wrapperOurProjects {
+    margin-bottom: 6.25em;
+    padding-top: 5em;
+}
+
 .ourProjectRef {
     text-align: center;
+    margin-top: 2.7em;
 }
 
 .ourProjectRef a {
-    font-size: 15px;
+    font-size: 1em;
     font-weight: bolder;
     color: #888888;
-    margin: 20px;
+    margin: 1.2em;
 }
 
 .Projects {
-    margin-top: 37px;
+    margin-top: 2.3em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .Project {
-    width: 390px;
-    height: 290px;
-    background-image: url('./pic/Project2.jpg');
+    position: relative;
+    width: 33.3%;
+    height: 50%;
+}
+
+.dark-project {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    visibility: hidden;
+    background-color:  rgba(255, 255, 0, 0);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    font-size: 1em;
+    color: #cccccc;
+}
+
+.dark-project h4 {
+    font-size: 1.2em;
+    color: #ffb619;
+}
+
+
+.Project:hover .dark-project{
+    visibility: visible;
+    background-color:  rgba(1, 62, 153, 0.7);
+    transition: 0.5s;
+    
+}
+
+.Project img {
+    width: 100%;
+    height: 100%;
 }
 
 .ProjectKey {
